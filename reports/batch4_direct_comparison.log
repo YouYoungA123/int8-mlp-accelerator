@@ -1,0 +1,7 @@
+CASE batch=4 tile=4 stall=0 run=0
+cycles=76600 cycles/inference=19150.000000
+weight_loads=110 baseline=440 reduction=75.00 %
+dram_requests=3648 dma_busy=40128 overlap=0
+layer_cycles=32241/3227/1000 load_weight=28380 load_input=4400
+outputs=128 intermediate=192 errors=0
+REGRESSION TEST PASS batch=4 tile=4 stall=0 runs=1

@@ -1,0 +1,13 @@
+CASE batch=4 tile=4 stall=0 run=0
+cycles=76600 cycles/inference=19150.000000
+weight_loads=110 baseline=440 reduction=75.00 %
+dram_requests=3648 dma_busy=40128 overlap=0
+outputs=128 intermediate=192 errors=0
+
+CASE batch=4 tile=4 stall=0 run=1
+cycles=37571 cycles/inference=9392.750000
+weight_loads=110 baseline=440 reduction=75.00 %
+dram_requests=100 dma_busy=1100 overlap=0
+outputs=128 intermediate=192 errors=0
+
+REGRESSION TEST PASS batch=4 tile=4 stall=0 runs=2
